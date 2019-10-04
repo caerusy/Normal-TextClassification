@@ -11,8 +11,6 @@
 
 ## Models
 
-**对于模型，我大多都在[我的博客](https://www.zhihu.com/people/songyingxin/posts)内做了详细的介绍， 简单模型一笔略过， 复杂模型往往都单独独立一篇文章。**
-
 最近，为了测试 `Highway Networks` 在连接词向量上的表现， 添加了通过 `Highway Networks` 融合 `char-level` 向量和 `word-level` 向量， 主要与之前的模型进行对比。 
 
 ## Requirement
