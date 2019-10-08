@@ -99,9 +99,9 @@ def main(config):
 if __name__ == "__main__":
 
     model_name = "TextRCNNHighway"   # TextRNN, TextCNN， lSTMATT, TextRCNN
-    data_dir = "/home/songyingxin/datasets/SST-2"
+    data_dir = "/home/liuyang/TextClassification/dataset/SST-2"
     cache_dir = ".cache/"
-    embedding_folder = "/home/songyingxin/datasets/WordEmbedding/glove/"
+    embedding_folder =  "/home/liuyang/TextClassification/embedding/glove/"
 
     model_dir = ".models/"
     log_dir = ".log/"

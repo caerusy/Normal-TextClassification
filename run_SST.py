@@ -92,9 +92,9 @@ def main(config):
 if __name__ == "__main__":
 
     model_name = "TransformerText"   # TextRNN, TextCNN， lSTMATT, TextRCNN, TransformerText
-    data_dir = "/search/hadoop02/suanfa/songyingxin/data/SST-2"
+    data_dir = "/home/liuyang/TextClassification/dataset/SST-2"
     cache_dir = ".cache/"
-    embedding_folder = "/search/hadoop02/suanfa/songyingxin/data/embedding/glove/"
+    embedding_folder = "/home/liuyang/TextClassification/embedding/glove/"
 
     model_dir = ".models/"
     log_dir = ".log/"
